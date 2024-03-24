@@ -23,11 +23,14 @@ namespace FifoQueue
 
     bool empty();
 
+    void waitForSignalDone();
+
     private:
 
     std::queue<Truck::Truck*> q; //!< Queue to hold trucks in line
     std::mutex mtx; //!< Mutex to protect the queue 
     std::condition_variable cv; //!< Used to signal 
+    bool done;
 
   };
 

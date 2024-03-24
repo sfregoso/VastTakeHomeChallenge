@@ -132,6 +132,10 @@ namespace Truck
   {
     TruckState nextState = this->state;
 
+    this->stations[0]->waitForUnloadDone();
+
+    printf("Truck[%d]: Unloading done!\n", this->id);
+
     nextState = TruckState::TRAVELLING_TO_SITE;
 
     return nextState;

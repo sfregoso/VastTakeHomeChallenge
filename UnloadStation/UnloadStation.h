@@ -43,6 +43,8 @@ namespace UnloadStation {
 
       void addTruckToQueue(void * truckPtr);
 
+      void waitForUnloadDone();
+
       static constexpr float ONE_MIN_IN_HOURS = (1./60.); // 30 min;
       static constexpr float UNLOADING_TIME_HRS = 5 * ONE_MIN_IN_HOURS; // 5 minutes in hours;
 
@@ -58,7 +60,6 @@ namespace UnloadStation {
 
       void incWaitTime();
       void decWaitTime();
-      void processTruckInQueueIfAny();
 
       UnloadStationState idleState();
       UnloadStationState unloadingState();

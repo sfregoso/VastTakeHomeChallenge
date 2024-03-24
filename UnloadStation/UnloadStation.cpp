@@ -46,20 +46,6 @@ namespace UnloadStation
 
     }
 
-    void UnloadStation::processTruckInQueueIfAny()
-    {
-        FifoQueue::FifoQueue* truckQ = reinterpret_cast<FifoQueue::FifoQueue *>(this->truckQueue);
-
-        if(!truckQ->empty()) {
-
-            auto id = truckQ->pop()->getId();
-            this->decWaitTime();
-            printf("Station[%d]:  Processed Truck[%d]\n", this->id, id);
-
-        } 
-
-    }
-
     void* UnloadStation::getTruckQueue()
     {
         return this->truckQueue;
@@ -75,7 +61,10 @@ namespace UnloadStation
         FifoQueue::FifoQueue* truckQ = reinterpret_cast<FifoQueue::FifoQueue *>(this->truckQueue);
 
         truckQ->push(reinterpret_cast<Truck::Truck*>(truckPtr));
+        auto curWait = this->getWaitTime();
         this->incWaitTime();
+
+        printf("Station[%d]: oldWait=%.3f, newWait=%.3f\n", this->id, curWait, this->getWaitTime());
     }
 
     void UnloadStation::removeTruckFromQueue()
@@ -87,6 +76,14 @@ namespace UnloadStation
         printf("Station[%d]: Removed Truck[%d] from queue.\n", this->id, truckId);
 
         this->decWaitTime();
+
+    }
+
+    void UnloadStation::waitForUnloadDone()
+    {
+        FifoQueue::FifoQueue* truckQ = reinterpret_cast<FifoQueue::FifoQueue *>(this->truckQueue);
+
+        truckQ->waitForSignalDone();
     }
 
     UnloadStation::UnloadStationState UnloadStation::idleState()
@@ -119,7 +116,9 @@ namespace UnloadStation
     {
         UnloadStationState nextState = this->state;
 
-        this->decWaitTime();
+        this->removeTruckFromQueue();
+
+        nextState = UnloadStationState::IDLE;
 
         return nextState;
 
