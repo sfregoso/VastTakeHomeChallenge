@@ -15,6 +15,21 @@ namespace Tests
     class Tests
     {
 
+        /**
+         * @note Testing incomplete but the desire would be the following
+         * 
+         * Use Google test as unit testing frame work would be ideal
+         * 
+         * Without Google test, I would use this `Test` class and add test functions
+         * to test
+         * 
+         * - Truck thread receipt of done signal from 
+         * - Statistics functions
+         * - Creation of truck and 
+         * - Out of range limit tests.
+         * 
+        */
+
         public:
 
         Tests();
