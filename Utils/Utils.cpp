@@ -1,7 +1,16 @@
+/**
+ * @file Utils.cpp
+ * @author Santos F. Fregoso
+ * @date 03/25/2024
+ * @brief Utils implementation file
+ * 
+ * @note This software is part of the "Vast Take-Home Coding Excersise" issued on 03/19/2024
+*/
 #include <stdint.h>
 #include <stdlib.h> //srand, rand
 #include <time.h> //time
 #include "Utils.h"
+#include "../Common/Common.h"
 
 
 namespace Utils
@@ -12,9 +21,10 @@ namespace Utils
       srand(seed);
    }
 
-    float randFlt(void)
+    float randSitDurationHrs(void)
     {
-        int32_t randNum = (rand() % 5) + 1;
+        int32_t randNum = (rand() % Common::MAX_SITE_DURATION_HRS) + Common::MIN_SITE_DURATION_HRS;
+        //int32_t randNum = 1;
         return (float)randNum;
     }
 

@@ -1,3 +1,11 @@
+/**
+ * @file App.h
+ * @author Santos F. Fregoso
+ * @date 03/25/2024
+ * @brief Application header file
+ * 
+ * @note This software is part of the "Vast Take-Home Coding Excersise" issued on 03/19/2024
+*/
 #ifndef _APP_H_
 #define _APP_H_
 #include "../Truck/Truck.h"
@@ -16,6 +24,8 @@ namespace App
         ~App();
     
         void Start();
+
+        void Stop();
     
         static constexpr uint32_t MAX_NUM_TRUCKS = 20;
         static constexpr uint32_t MAX_NUM_STATIONS = 20;

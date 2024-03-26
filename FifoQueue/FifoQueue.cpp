@@ -1,3 +1,11 @@
+/**
+ * @file FifoQueue.h
+ * @author Santos F. Fregoso
+ * @date 03/25/2024
+ * @brief FifoQueue implementation file
+ * 
+ * @note This software is part of the "Vast Take-Home Coding Excersise" issued on 03/19/2024
+*/
 #include "FifoQueue.h"
 namespace FifoQueue
 {
@@ -38,21 +46,21 @@ namespace FifoQueue
         return ret;
     }
 
+    Truck::Truck* FifoQueue::front()
+    {
+        return this->q.front();
+    }
+
     void FifoQueue::push(Truck::Truck * value)
     {
         {
-        std::lock_guard lk(this->mtx);
+            std::lock_guard lk(this->mtx);
 
-        //std::shared_ptr<Truck::Truck> oneSharedPtr(value, 
-        //                           [](Truck::Truck* buff) { delete [] buff; } ); 
-        //std::shared_ptr<Truck::Truck> p(value);
-        int val = 0;
-        //this->q.push(val);
-        this->q.push(value);
-        this->done = false;
-        printf("Truck id=%d.  Queue has %ld items\n", value->getId(), this->q.size());
+            int val = 0;
+            this->q.push(value);
+            this->done = false;
+            //printf("Truck id=%d.  Queue has %ld items\n", value->getId(), this->q.size());
 
-        //this->cv.notify_one();
         }
 
     }

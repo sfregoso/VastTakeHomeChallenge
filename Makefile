@@ -1,3 +1,11 @@
+##
+# @file Makefile
+# @author Santos F. Fregoso
+# @date 03/25/2024
+# @brief Makefile for the Vast challenge application
+# 
+# @note This software is part of the "Vast Take-Home Coding Excersise" issued on 03/19/2024
+##
 NAME=vastChallenge
 TESTS=tests
 CC=g++
