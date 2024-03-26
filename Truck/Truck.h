@@ -4,6 +4,8 @@
  * @date 03/25/2024
  * @brief Truck header file
  * 
+ * 
+ * 
  * @note This software is part of the "Vast Take-Home Coding Excersise" issued on 03/19/2024
 */
 #ifndef _TRUCK_H_
@@ -15,7 +17,6 @@
 #include "../Thread/Thread.h"
 #include "../UnloadStation/UnloadStation.h"
 #include "../Common/Common.h"
-//#include "../FifoQueue/FifoQueue.h"
 
 namespace Truck {
 
