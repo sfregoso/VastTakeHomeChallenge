@@ -1,0 +1,654 @@
+Main():  numTrucks = 5, numStations = 2
+Truck[0] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[1] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[4] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[3] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[2] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [5.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Truck[4] has been assigned to Station[1]
+Station[1]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+ALL STATIONS ARE BUSY: Lowest Wait time is [0.083] hrs at Station[0]
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.167] hrs
+Station[1] is now servicing Truck[4]
+Station[0] is now servicing Truck[3]
+Station[1]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.083] hrs
+Truck[3]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Station[0] is now servicing Truck[1]
+Truck[3] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [5.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Truck[3] has been assigned to Station[1]
+Station[1]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[1] is now servicing Truck[3]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Station[1]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Truck[4] has been assigned to Station[1]
+Station[1]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[1] is now servicing Truck[4]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Station[1]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[4] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [5.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [5.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [5.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Truck[1] has been assigned to Station[1]
+Station[1]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[1] is now servicing Truck[1]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [5.000] hrs to load ...
+Station[1]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [5.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Truck[4] has been assigned to Station[1]
+Station[1]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[1] is now servicing Truck[4]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [5.000] hrs to load ...
+Station[1]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Truck[2]: Unloading done!
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Truck[1] has been assigned to Station[1]
+Station[1]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[1] is now servicing Truck[1]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Station[1]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [5.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [5.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Truck[2]: Unloading done!
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Truck[1] has been assigned to Station[1]
+Station[1]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[1] is now servicing Truck[1]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Station[1]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [5.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [2.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [5.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2]: Unloading done!
+Truck[2] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [3.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[4] has been assigned to Station[0]
+Station[0]: Added Truck[4] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[4]
+Station[0]: Removed Truck[4] from queue. Wait time is now [0.000] hrs
+Truck[4]: Unloading done!
+Truck[4] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[0] has been assigned to Station[0]
+Station[0]: Added Truck[0] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[0]
+Station[0]: Removed Truck[0] from queue. Wait time is now [0.000] hrs
+Truck[0]: Unloading done!
+Truck[0] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[2] has been assigned to Station[0]
+Station[0]: Added Truck[2] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[2]
+Truck[2]: Unloading done!
+Station[0]: Removed Truck[2] from queue. Wait time is now [0.000] hrs
+Truck[2] is loading Helium-3 as site and will take [4.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [1.000] hrs to load ...
+Truck[3] has been assigned to Station[0]
+Station[0]: Added Truck[3] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[3]
+Station[0]: Removed Truck[3] from queue. Wait time is now [0.000] hrs
+Truck[3]: Unloading done!
+Truck[3] is loading Helium-3 as site and will take [5.000] hrs to load ...
+Truck[1] has been assigned to Station[0]
+Station[0]: Added Truck[1] from queue. Wait time is now [0.083] hrs
+Station[0] is now servicing Truck[1]
+Station[0]: Removed Truck[1] from queue. Wait time is now [0.000] hrs
+Truck[1]: Unloading done!
+Truck[1] is loading Helium-3 as site and will take [3.000] hrs to load ...
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Statistics for Station [0]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+	Total Trucks serviced here: 92
+	Truck[0] used this station 18 times  - 19.57%
+	Truck[1] used this station 16 times  - 17.39%
+	Truck[2] used this station 22 times  - 23.91%
+	Truck[3] used this station 20 times  - 21.74%
+	Truck[4] used this station 16 times  - 17.39%
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Statistics for Station [1]
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+	Total Trucks serviced here: 7
+	Truck[0] used this station 0 times  - 0.00%
+	Truck[1] used this station 3 times  - 42.86%
+	Truck[2] used this station 0 times  - 0.00%
+	Truck[3] used this station 1 times  - 14.29%
+	Truck[4] used this station 3 times  - 42.86%
+=================================================
+Statistics for Truck [0]
+=================================================
+	Use of stations by this truck:
+	Station[0]: 18 times
+	Station[1]: 0 times
+
+=================================================
+Statistics for Truck [1]
+=================================================
+	Use of stations by this truck:
+	Station[0]: 16 times
+	Station[1]: 3 times
+
+=================================================
+Statistics for Truck [2]
+=================================================
+	Use of stations by this truck:
+	Station[0]: 22 times
+	Station[1]: 0 times
+
+=================================================
+Statistics for Truck [3]
+=================================================
+	Use of stations by this truck:
+	Station[0]: 20 times
+	Station[1]: 1 times
+
+=================================================
+Statistics for Truck [4]
+=================================================
+	Use of stations by this truck:
+	Station[0]: 16 times
+	Station[1]: 3 times
+
